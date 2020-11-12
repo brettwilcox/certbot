@@ -111,7 +111,7 @@ function reload_nginx() {
 ##################### Script start ################################
 ###################################################################
 
-domains_list=("example.com www.example.com" "api.example.com www.api.example.com")
+domains_list=("example.com www.example.com", "api.example.com www.api.example.com")
 rsa_key_size=4096
 data_path="/home/example/certbot"
 email="example@example.com" # Adding a valid address is strongly recommended
