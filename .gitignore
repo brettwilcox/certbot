@@ -1,1 +1,8 @@
+# Ignore Mac files
+.DS_Store
+
+# Environment setup
+.env
+
+# Ignore certificates
 /data/certbot
